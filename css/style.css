@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* Navigation Bar (Using Grid) */
+/* Navigation Bar */
 #nav-bar {
     background: #fff;
     position: sticky;
@@ -202,13 +202,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Main NewsGrid Section */
 
-#main #newsgrid-content {
+#home-articles #newsgrid-content {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
 }
 
-#main #newsgrid-content .thumb-1 {
+#home-articles #newsgrid-content .thumb-1 {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column: 1 / span 2;
@@ -217,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-#main #newsgrid-content .thumb-7 {
+#home-articles #newsgrid-content .thumb-7 {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column: 2 / span 2;
@@ -268,3 +268,17 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0.5rem 0;
 }
 
+/* About page */
+/* -------------------------------------------- */
+#about-newsgrid .about-newsgrid-content {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-gap: 1.5rem;
+}
+
+#about-newsgrid .about-newsgrid-content .main-article h1 {
+    font-size: 3rem;
+}
+#about-newsgrid .about-newsgrid-content aside {
+    height:fit-content;
+}
