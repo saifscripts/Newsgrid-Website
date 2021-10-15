@@ -127,6 +127,20 @@ h1, h2, h3, h4, h5, h6 {
 .list li a:hover {
     color: var(--primary-color);
 }
+.s-heading { font-size: 1.5rem;}
+.m-heading { font-size: 2rem;}
+.l-heading { font-size: 3rem;}
+
+
+/* Inner Page Utility Classes */
+.page-content {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-gap: 1.5rem;
+}
+.page-content *:first-child {
+    grid-row: 1 / span 3;
+}
 
 
 /* Navigation Bar */
@@ -268,17 +282,15 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0.5rem 0;
 }
 
-/* About page */
-/* -------------------------------------------- */
-#about-newsgrid .about-newsgrid-content {
-    display: grid;
-    grid-template-columns: 5fr 2fr;
-    grid-gap: 1.5rem;
-}
 
-#about-newsgrid .about-newsgrid-content .main-article h1 {
-    font-size: 3rem;
+/* Article Page */
+#main-content .author {
+    background: var(--light-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    align-items: center;
 }
-#about-newsgrid .about-newsgrid-content aside {
-    height:fit-content;
+#main-content .author p {
+    font-size: 0.8rem;
 }
