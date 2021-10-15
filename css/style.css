@@ -284,13 +284,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Article Page */
-#main-content .author {
-    background: var(--light-color);
+#main-content .meta {
+    background: #eee;
     display: flex;
     justify-content: space-between;
     padding: 0.5rem;
     align-items: center;
 }
-#main-content .author p {
-    font-size: 0.8rem;
+#main-content .meta .category {
+    margin-top: 0.4rem;
 }
