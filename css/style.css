@@ -225,14 +225,11 @@ h1, h2, h3, h4, h5, h6 {
 #showcase .showcase-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    height: 50vh;
 }
 #showcase .showcase-content {
     overflow: hidden;
     z-index: 1;
+    padding: 5rem 0;
 }
 
 
