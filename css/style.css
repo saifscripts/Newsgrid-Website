@@ -209,7 +209,6 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     background: #333;
     color: #fff;
-    padding: 2rem;
 }
 
 #showcase::before {
