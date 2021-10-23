@@ -6,9 +6,6 @@
     grid-template-columns: 9fr 2fr;
 }
 
-#showcase .showcase-container {
-    height: 60vh;
-}
 
 /* Main Newsgrid Section */
 #home-articles #newsgrid-content {
